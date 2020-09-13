@@ -1,0 +1,1189 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02FA7D0E5813EE92C523F3776D01B0B3 /* Int+Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF912E0AA36215105A3D47E340BD717 /* Int+Time.swift */; };
+		03C4A0B3937EFD9700F4B6128F42039B /* VideoConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B6B37A831EA61803E58F173E447123 /* VideoConverter.swift */; };
+		0E60A2FD44B78038196330BACA7EA2BD /* Pods-VideoConverter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1927DC96F2D230C503AD63527BD09 /* Pods-VideoConverter_Tests-dummy.m */; };
+		1C7E6BB1A08105D765FC67C75A95E512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1CC72930370BF0E16063890C40D650EE /* CropResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B2D37EE557960BD8B9B7F16D78E1DD /* CropResult.swift */; };
+		1F60ACC4D8FC7F300B5D73417B007632 /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7E2A5E90F1D5FEA49626D6F2E75AB /* CropView.swift */; };
+		1F64E07B6BCE2D7275A5BB4C043B4B13 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A893D399EBBAD3D27BF517946243B59 /* UIView+.swift */; };
+		23DE0488139BA9FAB353E3EB46A45C61 /* ConverterOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96A031135164F4C1FFE3DF3C4E17DD /* ConverterOption.swift */; };
+		2A48619B14F4D1FC7D08332C12ECBB66 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C77877A078293FCF7E082971D717978 /* UIImageView+.swift */; };
+		38B4D2544D942CACB412298CD06746A1 /* BezierPath+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDFCBF3E751483D8714C1A4FE046FF /* BezierPath+.swift */; };
+		3C1C3ECF96445F2895497BB4DFD013D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3E4B3183E7C9DEB2F6469AD50E49EFA4 /* VideoTrim-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6202D03C5A8EF9EDED4747017EC034A /* VideoTrim-dummy.m */; };
+		43A1C58672D95D85F829FE8A564AAF9D /* NSLayoutConstraint+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFA087F12CA9FF612BD82DBEC95577F /* NSLayoutConstraint+.swift */; };
+		48539994FC1E5BFA32C807766F0C001E /* VisualEffectImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95DD4E46DF0BD702ADF5F1CCABF5452 /* VisualEffectImageView.swift */; };
+		4AA1CE75CFEE4E20C44689F9238CD8C4 /* VideoTrim-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84ED309CEBEAAA60DC55F751E5C7BFAF /* VideoTrim-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		517F0789420E1501C70DB4DCE1C57D49 /* CropDimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D953AF0C5313D0E566FD312893175185 /* CropDimView.swift */; };
+		53D2636FECE3CAE1313CC0F87377DA9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		951A2A1A7309D401D5EEE594930993AF /* CropPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B45896CF045E0A0325A0DB9BA995BBE /* CropPickerView.swift */; };
+		9E4AB48A698D5B7BB722D101F8A8563D /* UIImage+fixOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8BFE6B8BADD009961FE252AD172E4A /* UIImage+fixOrientation.swift */; };
+		A41851EF1BDB3B8A9AE78248EA58987F /* Pods-VideoConverter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7945DE14E587FE50ED7CF17DDA66D37 /* Pods-VideoConverter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5561147530284A959D77078E31A67A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BFA71E69E253C53CDA1D9C84631D2B8D /* ConverterDegree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA02B506AB6BB758B856DB78E4CFC0B /* ConverterDegree.swift */; };
+		C777333AF139EA70AB4FD9A888B89229 /* Pods-VideoConverter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5E3245DA5D3482F969804DF0213029 /* Pods-VideoConverter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D731AE962B407AE2B7247B43CA687F3A /* VideoTrim.swift in Sources */ = {isa = PBXBuildFile; fileRef = F607F1E5D25E01FE2CF560E87F606273 /* VideoTrim.swift */; };
+		DA6E723E228EE7B29BD8D281A472D46F /* CropPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECAD00E9084088B94008A7409806A1F /* CropPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA91FBD642148F060922DF0D392D2635 /* Pods-VideoConverter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B80C9AEE9447C15158B21149D42DC39 /* Pods-VideoConverter_Example-dummy.m */; };
+		E3CD3ABC3C631F315B724F86EB9D604A /* VideoConverter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF876342376A3234E933E426F0AFDF67 /* VideoConverter-dummy.m */; };
+		E50BD0D99EF3DDBAC2262807EAFF6537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E54FD672B8FAC95799D768C377364D3E /* ConverterCrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17578DD2A446A0B79922C77751A4627A /* ConverterCrop.swift */; };
+		F4FD8158183BF0A4832C737ED48A626D /* LineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331AB0EC0EB46527F281D45F1A5FA0C8 /* LineButton.swift */; };
+		FD71E060048279DF14846512462CA1F8 /* CropPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3331B3AF2F526D105332A843E344AD /* CropPickerView-dummy.m */; };
+		FDFB991FAE0D95767AF82B04921DDC32 /* VideoConverter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9C75536494E7DC0BA2719EFAFCB4D9C /* VideoConverter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C52F9B5334E81B299BFA6B4342590C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2E82C663A10701CE6B794CFF6CCFA17;
+			remoteInfo = CropPickerView;
+		};
+		3809CB56E8C222090B3742BEF6B131B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 731436FB31C407DFE5B62D5EAC5126F9;
+			remoteInfo = "Pods-VideoConverter_Example";
+		};
+		C6795E36AE64F0C08E2637C6CA6DE0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B303712B258BD9F462D494D9FCCBB2;
+			remoteInfo = VideoConverter;
+		};
+		D606F8E78D5F8A70D1AF791D4E416992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 901D7D609F83C426259CDBAD2B3A602A;
+			remoteInfo = VideoTrim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0691C48810B676F43C9CA84EAFFC0EA5 /* Pods-VideoConverter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoConverter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0AAA2116D2010F1F0CBCD768D28976EB /* VideoTrim.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VideoTrim.modulemap; sourceTree = "<group>"; };
+		0C77877A078293FCF7E082971D717978 /* UIImageView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+.swift"; path = "CropPickerView/Classes/UIImageView+.swift"; sourceTree = "<group>"; };
+		173747745783B8930F63D9903DC9FBFF /* Pods-VideoConverter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VideoConverter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17578DD2A446A0B79922C77751A4627A /* ConverterCrop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConverterCrop.swift; path = VideoConverter/Classes/ConverterCrop.swift; sourceTree = "<group>"; };
+		23B2D37EE557960BD8B9B7F16D78E1DD /* CropResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropResult.swift; path = CropPickerView/Classes/CropResult.swift; sourceTree = "<group>"; };
+		253D957D0BBA30EDBA10872AD3ADE8F9 /* CropPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CropPickerView.modulemap; sourceTree = "<group>"; };
+		267D78F783F7B49AAFF4F8D214B2F2F8 /* Pods-VideoConverter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoConverter_Tests-Info.plist"; sourceTree = "<group>"; };
+		2A893D399EBBAD3D27BF517946243B59 /* UIView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+.swift"; path = "CropPickerView/Classes/UIView+.swift"; sourceTree = "<group>"; };
+		2B45896CF045E0A0325A0DB9BA995BBE /* CropPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropPickerView.swift; path = CropPickerView/Classes/CropPickerView.swift; sourceTree = "<group>"; };
+		2F5E3245DA5D3482F969804DF0213029 /* Pods-VideoConverter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VideoConverter_Example-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		331AB0EC0EB46527F281D45F1A5FA0C8 /* LineButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineButton.swift; path = CropPickerView/Classes/LineButton.swift; sourceTree = "<group>"; };
+		365B770168BCAE0C47F42D80B36A3031 /* CropPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropPickerView-prefix.pch"; sourceTree = "<group>"; };
+		3ECAD00E9084088B94008A7409806A1F /* CropPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropPickerView-umbrella.h"; sourceTree = "<group>"; };
+		40A73D0D34EDFDA5DCB8EF8EBCC48DA0 /* VideoConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VideoConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DCC2DA4B9FC6795E991FE9CE86BE0F /* VideoConverter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VideoConverter-prefix.pch"; sourceTree = "<group>"; };
+		45E635B1933438455D517D259A231DFD /* VideoTrim-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VideoTrim-prefix.pch"; sourceTree = "<group>"; };
+		4D3331B3AF2F526D105332A843E344AD /* CropPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CropPickerView-dummy.m"; sourceTree = "<group>"; };
+		4D4A3A6592882BAFE8BA558282776A72 /* CropPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropPickerView.release.xcconfig; sourceTree = "<group>"; };
+		4F170F740F416A2CE110EB055632B1A1 /* Pods-VideoConverter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoConverter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		57FF06B3CFA0D537C0168EEB1C12FFF3 /* Pods-VideoConverter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VideoConverter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CCDFCBF3E751483D8714C1A4FE046FF /* BezierPath+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BezierPath+.swift"; path = "CropPickerView/Classes/BezierPath+.swift"; sourceTree = "<group>"; };
+		5D8BFE6B8BADD009961FE252AD172E4A /* UIImage+fixOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+fixOrientation.swift"; path = "CropPickerView/Classes/UIImage+fixOrientation.swift"; sourceTree = "<group>"; };
+		5EEB917069E438DA7841630898175B0C /* VideoTrim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VideoTrim.release.xcconfig; sourceTree = "<group>"; };
+		60C68F755F1503366ED1F68853A6B3C2 /* VideoConverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VideoConverter.debug.xcconfig; sourceTree = "<group>"; };
+		61B6B37A831EA61803E58F173E447123 /* VideoConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoConverter.swift; path = VideoConverter/Classes/VideoConverter.swift; sourceTree = "<group>"; };
+		61E6370BD0613626A87B5B3447FD851D /* Pods-VideoConverter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoConverter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		66F7E2A5E90F1D5FEA49626D6F2E75AB /* CropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropView.swift; path = CropPickerView/Classes/CropView.swift; sourceTree = "<group>"; };
+		6B8209E631821E2631013F989E7AE542 /* VideoConverter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VideoConverter.modulemap; sourceTree = "<group>"; };
+		6CBD7631E7682E06243C46ACA822C481 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6EFA087F12CA9FF612BD82DBEC95577F /* NSLayoutConstraint+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+.swift"; path = "CropPickerView/Classes/NSLayoutConstraint+.swift"; sourceTree = "<group>"; };
+		70A5572B9B1E4428353CC5B23AFA3F35 /* Pods-VideoConverter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VideoConverter_Example.modulemap"; sourceTree = "<group>"; };
+		7AE1927DC96F2D230C503AD63527BD09 /* Pods-VideoConverter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VideoConverter_Tests-dummy.m"; sourceTree = "<group>"; };
+		7D1EE86B23F130A97ED34A8B543DDD5A /* VideoConverter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VideoConverter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		84ED309CEBEAAA60DC55F751E5C7BFAF /* VideoTrim-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VideoTrim-umbrella.h"; sourceTree = "<group>"; };
+		8586C952582E82FA9B7BC1B7062C420D /* VideoConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VideoConverter.release.xcconfig; sourceTree = "<group>"; };
+		8AA02B506AB6BB758B856DB78E4CFC0B /* ConverterDegree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConverterDegree.swift; path = VideoConverter/Classes/ConverterDegree.swift; sourceTree = "<group>"; };
+		8CEEB883CBD30E4824A81C748BD5111B /* Pods-VideoConverter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoConverter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9121F1716A3A0DA184458D5C72DBD92E /* Pods_VideoConverter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoConverter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B80C9AEE9447C15158B21149D42DC39 /* Pods-VideoConverter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VideoConverter_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE04F60DBF1121392365B992117251CC /* VideoTrim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VideoTrim.debug.xcconfig; sourceTree = "<group>"; };
+		B6202D03C5A8EF9EDED4747017EC034A /* VideoTrim-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VideoTrim-dummy.m"; sourceTree = "<group>"; };
+		B8E10119F6F02F0A2606F47A198CBC1C /* Pods-VideoConverter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoConverter_Example-Info.plist"; sourceTree = "<group>"; };
+		B95DD4E46DF0BD702ADF5F1CCABF5452 /* VisualEffectImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisualEffectImageView.swift; path = VideoTrim/Classes/VisualEffectImageView.swift; sourceTree = "<group>"; };
+		BC41DB725C665F7965132E9009547F02 /* Pods-VideoConverter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoConverter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C3D0BB710CA025ABB02ADCA869584443 /* VideoTrim-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VideoTrim-Info.plist"; sourceTree = "<group>"; };
+		CBF912E0AA36215105A3D47E340BD717 /* Int+Time.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Time.swift"; path = "VideoTrim/Classes/Int+Time.swift"; sourceTree = "<group>"; };
+		CC96A031135164F4C1FFE3DF3C4E17DD /* ConverterOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConverterOption.swift; path = VideoConverter/Classes/ConverterOption.swift; sourceTree = "<group>"; };
+		CF776FA6186DD0DBBDF177C99D692F00 /* CropPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropPickerView.debug.xcconfig; sourceTree = "<group>"; };
+		CFBDD2CEC01C50D2B6DD5DD7C9B70137 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D0A1DF568FFB402F1CF7125076786652 /* CropPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CropPickerView-Info.plist"; sourceTree = "<group>"; };
+		D88E3C4902483C036B93E30919E6C566 /* Pods-VideoConverter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VideoConverter_Tests.modulemap"; sourceTree = "<group>"; };
+		D953AF0C5313D0E566FD312893175185 /* CropDimView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropDimView.swift; path = CropPickerView/Classes/CropDimView.swift; sourceTree = "<group>"; };
+		DC95A0B6954692EBF743619D5146E844 /* Pods-VideoConverter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoConverter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E31586FC280F184D535DB550C90E57A9 /* CropPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CropPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F90146BA6AEABFA4AFB0DE638538E5 /* Pods_VideoConverter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoConverter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7945DE14E587FE50ED7CF17DDA66D37 /* Pods-VideoConverter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VideoConverter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E9C75536494E7DC0BA2719EFAFCB4D9C /* VideoConverter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VideoConverter-umbrella.h"; sourceTree = "<group>"; };
+		EF876342376A3234E933E426F0AFDF67 /* VideoConverter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VideoConverter-dummy.m"; sourceTree = "<group>"; };
+		F17098A1C07F4A59E1F4620453FF5B4F /* VideoConverter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VideoConverter-Info.plist"; sourceTree = "<group>"; };
+		F607F1E5D25E01FE2CF560E87F606273 /* VideoTrim.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoTrim.swift; path = VideoTrim/Classes/VideoTrim.swift; sourceTree = "<group>"; };
+		FB4C3905602A2A658A11E9A583E29772 /* Pods-VideoConverter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VideoConverter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FFFABD6A64B21675A1548E1DCF7C2C85 /* VideoTrim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VideoTrim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A95660E41CFD0A75AE0D600E9D1101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7E6BB1A08105D765FC67C75A95E512 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C70E6ACC44BEDDE88675E01E0E48015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5561147530284A959D77078E31A67A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D9BD5C3311441EF3439A90C3D46A4A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1C3ECF96445F2895497BB4DFD013D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FE70E63873F87616DB7608EF25935F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50BD0D99EF3DDBAC2262807EAFF6537 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B180DBC0DE7849043EA7B9CDCE9A0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D2636FECE3CAE1313CC0F87377DA9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BF04DAA582B7188E29C33603D023DF1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B8209E631821E2631013F989E7AE542 /* VideoConverter.modulemap */,
+				EF876342376A3234E933E426F0AFDF67 /* VideoConverter-dummy.m */,
+				F17098A1C07F4A59E1F4620453FF5B4F /* VideoConverter-Info.plist */,
+				40DCC2DA4B9FC6795E991FE9CE86BE0F /* VideoConverter-prefix.pch */,
+				E9C75536494E7DC0BA2719EFAFCB4D9C /* VideoConverter-umbrella.h */,
+				60C68F755F1503366ED1F68853A6B3C2 /* VideoConverter.debug.xcconfig */,
+				8586C952582E82FA9B7BC1B7062C420D /* VideoConverter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VideoConverter";
+			sourceTree = "<group>";
+		};
+		22A82C840A9159B2DE8BCF6C23F2D173 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C946B609B3C7C34E42B15AB2C25BB63F /* Pods-VideoConverter_Example */,
+				33262AD20E8A92016A5AE143607786BF /* Pods-VideoConverter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2A1411B2F07877B4F5B15AA881E65672 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF68831AC5D0C4BF720D02224598B3D3 /* CropPickerView */,
+				466AB98F364231EB641E5090A3BE0ACF /* VideoTrim */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		33262AD20E8A92016A5AE143607786BF /* Pods-VideoConverter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D88E3C4902483C036B93E30919E6C566 /* Pods-VideoConverter_Tests.modulemap */,
+				173747745783B8930F63D9903DC9FBFF /* Pods-VideoConverter_Tests-acknowledgements.markdown */,
+				0691C48810B676F43C9CA84EAFFC0EA5 /* Pods-VideoConverter_Tests-acknowledgements.plist */,
+				7AE1927DC96F2D230C503AD63527BD09 /* Pods-VideoConverter_Tests-dummy.m */,
+				267D78F783F7B49AAFF4F8D214B2F2F8 /* Pods-VideoConverter_Tests-Info.plist */,
+				E7945DE14E587FE50ED7CF17DDA66D37 /* Pods-VideoConverter_Tests-umbrella.h */,
+				8CEEB883CBD30E4824A81C748BD5111B /* Pods-VideoConverter_Tests.debug.xcconfig */,
+				BC41DB725C665F7965132E9009547F02 /* Pods-VideoConverter_Tests.release.xcconfig */,
+			);
+			name = "Pods-VideoConverter_Tests";
+			path = "Target Support Files/Pods-VideoConverter_Tests";
+			sourceTree = "<group>";
+		};
+		40C171C8107FD5FB1F1FA0FFA5C10EB2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				253D957D0BBA30EDBA10872AD3ADE8F9 /* CropPickerView.modulemap */,
+				4D3331B3AF2F526D105332A843E344AD /* CropPickerView-dummy.m */,
+				D0A1DF568FFB402F1CF7125076786652 /* CropPickerView-Info.plist */,
+				365B770168BCAE0C47F42D80B36A3031 /* CropPickerView-prefix.pch */,
+				3ECAD00E9084088B94008A7409806A1F /* CropPickerView-umbrella.h */,
+				CF776FA6186DD0DBBDF177C99D692F00 /* CropPickerView.debug.xcconfig */,
+				4D4A3A6592882BAFE8BA558282776A72 /* CropPickerView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CropPickerView";
+			sourceTree = "<group>";
+		};
+		466AB98F364231EB641E5090A3BE0ACF /* VideoTrim */ = {
+			isa = PBXGroup;
+			children = (
+				CBF912E0AA36215105A3D47E340BD717 /* Int+Time.swift */,
+				F607F1E5D25E01FE2CF560E87F606273 /* VideoTrim.swift */,
+				B95DD4E46DF0BD702ADF5F1CCABF5452 /* VisualEffectImageView.swift */,
+				85EA1E71B081E9EF95A3E0AE83B10E43 /* Support Files */,
+			);
+			path = VideoTrim;
+			sourceTree = "<group>";
+		};
+		85EA1E71B081E9EF95A3E0AE83B10E43 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AAA2116D2010F1F0CBCD768D28976EB /* VideoTrim.modulemap */,
+				B6202D03C5A8EF9EDED4747017EC034A /* VideoTrim-dummy.m */,
+				C3D0BB710CA025ABB02ADCA869584443 /* VideoTrim-Info.plist */,
+				45E635B1933438455D517D259A231DFD /* VideoTrim-prefix.pch */,
+				84ED309CEBEAAA60DC55F751E5C7BFAF /* VideoTrim-umbrella.h */,
+				AE04F60DBF1121392365B992117251CC /* VideoTrim.debug.xcconfig */,
+				5EEB917069E438DA7841630898175B0C /* VideoTrim.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VideoTrim";
+			sourceTree = "<group>";
+		};
+		8FB107EBBF0E327D73FECA1FC6133AB9 /* VideoConverter */ = {
+			isa = PBXGroup;
+			children = (
+				61B6B37A831EA61803E58F173E447123 /* VideoConverter.swift */,
+				CC96A031135164F4C1FFE3DF3C4E17DD /* ConverterOption.swift */,
+				17578DD2A446A0B79922C77751A4627A /* ConverterCrop.swift */,
+				8AA02B506AB6BB758B856DB78E4CFC0B /* ConverterDegree.swift */,
+				D8C32A1882DD727B62C0BCB52D42E5DA /* Pod */,
+				0BF04DAA582B7188E29C33603D023DF1 /* Support Files */,
+			);
+			name = VideoConverter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A703B3416CF23008D97CD402399BBFEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E31586FC280F184D535DB550C90E57A9 /* CropPickerView.framework */,
+				9121F1716A3A0DA184458D5C72DBD92E /* Pods_VideoConverter_Example.framework */,
+				E6F90146BA6AEABFA4AFB0DE638538E5 /* Pods_VideoConverter_Tests.framework */,
+				40A73D0D34EDFDA5DCB8EF8EBCC48DA0 /* VideoConverter.framework */,
+				FFFABD6A64B21675A1548E1DCF7C2C85 /* VideoTrim.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C946B609B3C7C34E42B15AB2C25BB63F /* Pods-VideoConverter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				70A5572B9B1E4428353CC5B23AFA3F35 /* Pods-VideoConverter_Example.modulemap */,
+				57FF06B3CFA0D537C0168EEB1C12FFF3 /* Pods-VideoConverter_Example-acknowledgements.markdown */,
+				4F170F740F416A2CE110EB055632B1A1 /* Pods-VideoConverter_Example-acknowledgements.plist */,
+				9B80C9AEE9447C15158B21149D42DC39 /* Pods-VideoConverter_Example-dummy.m */,
+				FB4C3905602A2A658A11E9A583E29772 /* Pods-VideoConverter_Example-frameworks.sh */,
+				B8E10119F6F02F0A2606F47A198CBC1C /* Pods-VideoConverter_Example-Info.plist */,
+				2F5E3245DA5D3482F969804DF0213029 /* Pods-VideoConverter_Example-umbrella.h */,
+				DC95A0B6954692EBF743619D5146E844 /* Pods-VideoConverter_Example.debug.xcconfig */,
+				61E6370BD0613626A87B5B3447FD851D /* Pods-VideoConverter_Example.release.xcconfig */,
+			);
+			name = "Pods-VideoConverter_Example";
+			path = "Target Support Files/Pods-VideoConverter_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E48B35AD7ADBD8B90AAF3FA46A6B7896 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2A1411B2F07877B4F5B15AA881E65672 /* Pods */,
+				A703B3416CF23008D97CD402399BBFEE /* Products */,
+				22A82C840A9159B2DE8BCF6C23F2D173 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8C32A1882DD727B62C0BCB52D42E5DA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6CBD7631E7682E06243C46ACA822C481 /* LICENSE */,
+				CFBDD2CEC01C50D2B6DD5DD7C9B70137 /* README.md */,
+				7D1EE86B23F130A97ED34A8B543DDD5A /* VideoConverter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DF68831AC5D0C4BF720D02224598B3D3 /* CropPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				5CCDFCBF3E751483D8714C1A4FE046FF /* BezierPath+.swift */,
+				D953AF0C5313D0E566FD312893175185 /* CropDimView.swift */,
+				2B45896CF045E0A0325A0DB9BA995BBE /* CropPickerView.swift */,
+				23B2D37EE557960BD8B9B7F16D78E1DD /* CropResult.swift */,
+				66F7E2A5E90F1D5FEA49626D6F2E75AB /* CropView.swift */,
+				331AB0EC0EB46527F281D45F1A5FA0C8 /* LineButton.swift */,
+				6EFA087F12CA9FF612BD82DBEC95577F /* NSLayoutConstraint+.swift */,
+				5D8BFE6B8BADD009961FE252AD172E4A /* UIImage+fixOrientation.swift */,
+				0C77877A078293FCF7E082971D717978 /* UIImageView+.swift */,
+				2A893D399EBBAD3D27BF517946243B59 /* UIView+.swift */,
+				40C171C8107FD5FB1F1FA0FFA5C10EB2 /* Support Files */,
+			);
+			path = CropPickerView;
+			sourceTree = "<group>";
+		};
+		E48B35AD7ADBD8B90AAF3FA46A6B7896 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FB107EBBF0E327D73FECA1FC6133AB9 /* VideoConverter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C4C83D7F99C260D8666816696CA8EBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C777333AF139EA70AB4FD9A888B89229 /* Pods-VideoConverter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582D31F5331D087CDD0BE1C43DF61A94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41851EF1BDB3B8A9AE78248EA58987F /* Pods-VideoConverter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DFDB4EF5C20DC1780FBF781F1BC884B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA1CE75CFEE4E20C44689F9238CD8C4 /* VideoTrim-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D3D194B4562DBCC3E1F782BEA5BFE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6E723E228EE7B29BD8D281A472D46F /* CropPickerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42355CC89ACFDFAFD72F456D4E30A4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFB991FAE0D95767AF82B04921DDC32 /* VideoConverter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19FD40F4824A3EEFFB521D2DDEF17774 /* Pods-VideoConverter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74829F61C9DED5D96312781D6553CB0C /* Build configuration list for PBXNativeTarget "Pods-VideoConverter_Tests" */;
+			buildPhases = (
+				582D31F5331D087CDD0BE1C43DF61A94 /* Headers */,
+				A703FF68459FCBD30958E4E82D4112C0 /* Sources */,
+				1C70E6ACC44BEDDE88675E01E0E48015 /* Frameworks */,
+				76723C44E9D371E3547AAD5C7E327243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C1D235625ACFE0F09318F9686A57348 /* PBXTargetDependency */,
+			);
+			name = "Pods-VideoConverter_Tests";
+			productName = "Pods-VideoConverter_Tests";
+			productReference = E6F90146BA6AEABFA4AFB0DE638538E5 /* Pods_VideoConverter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		731436FB31C407DFE5B62D5EAC5126F9 /* Pods-VideoConverter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2A76C6C3266E977E6CCF5140FE1512D /* Build configuration list for PBXNativeTarget "Pods-VideoConverter_Example" */;
+			buildPhases = (
+				2C4C83D7F99C260D8666816696CA8EBF /* Headers */,
+				B3989421CCA2D5F47D5A73BDB43E4067 /* Sources */,
+				2D9BD5C3311441EF3439A90C3D46A4A4 /* Frameworks */,
+				052FCF99538DEADA3454F6DCF850C1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4A44CD696EA4D2F1008FDC6F9033C1 /* PBXTargetDependency */,
+				42764BEFE1B3FC20BA4D2D852BC822DA /* PBXTargetDependency */,
+				D96EB0DC9F679A16FA5B818BA9E4E49A /* PBXTargetDependency */,
+			);
+			name = "Pods-VideoConverter_Example";
+			productName = "Pods-VideoConverter_Example";
+			productReference = 9121F1716A3A0DA184458D5C72DBD92E /* Pods_VideoConverter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83B303712B258BD9F462D494D9FCCBB2 /* VideoConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1487EC29DB811703F9B039BFA109535E /* Build configuration list for PBXNativeTarget "VideoConverter" */;
+			buildPhases = (
+				E42355CC89ACFDFAFD72F456D4E30A4E /* Headers */,
+				FC95F8DC441C894995B65E274298EE18 /* Sources */,
+				B2B180DBC0DE7849043EA7B9CDCE9A0E /* Frameworks */,
+				6B82FAAD86D5BA94B7BD5411C4CB2EF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoConverter;
+			productName = VideoConverter;
+			productReference = 40A73D0D34EDFDA5DCB8EF8EBCC48DA0 /* VideoConverter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		901D7D609F83C426259CDBAD2B3A602A /* VideoTrim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE30CEC3C6689B86AF76E73C69014B3 /* Build configuration list for PBXNativeTarget "VideoTrim" */;
+			buildPhases = (
+				8DFDB4EF5C20DC1780FBF781F1BC884B /* Headers */,
+				FAE59CD469DF4FA34B9F47944DF4D73E /* Sources */,
+				87FE70E63873F87616DB7608EF25935F /* Frameworks */,
+				964F943AFF9D554881157FED8D8D1D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoTrim;
+			productName = VideoTrim;
+			productReference = FFFABD6A64B21675A1548E1DCF7C2C85 /* VideoTrim.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2E82C663A10701CE6B794CFF6CCFA17 /* CropPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A046612143A0AA0DD0BD0C445C88D4F6 /* Build configuration list for PBXNativeTarget "CropPickerView" */;
+			buildPhases = (
+				A6D3D194B4562DBCC3E1F782BEA5BFE6 /* Headers */,
+				6A0747BD0BBDCBF9365AD6151DD2D97E /* Sources */,
+				04A95660E41CFD0A75AE0D600E9D1101 /* Frameworks */,
+				6E51499249CA96D48E1D8643E14EC9C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CropPickerView;
+			productName = CropPickerView;
+			productReference = E31586FC280F184D535DB550C90E57A9 /* CropPickerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A703B3416CF23008D97CD402399BBFEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2E82C663A10701CE6B794CFF6CCFA17 /* CropPickerView */,
+				731436FB31C407DFE5B62D5EAC5126F9 /* Pods-VideoConverter_Example */,
+				19FD40F4824A3EEFFB521D2DDEF17774 /* Pods-VideoConverter_Tests */,
+				83B303712B258BD9F462D494D9FCCBB2 /* VideoConverter */,
+				901D7D609F83C426259CDBAD2B3A602A /* VideoTrim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		052FCF99538DEADA3454F6DCF850C1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B82FAAD86D5BA94B7BD5411C4CB2EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E51499249CA96D48E1D8643E14EC9C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76723C44E9D371E3547AAD5C7E327243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964F943AFF9D554881157FED8D8D1D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A0747BD0BBDCBF9365AD6151DD2D97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B4D2544D942CACB412298CD06746A1 /* BezierPath+.swift in Sources */,
+				517F0789420E1501C70DB4DCE1C57D49 /* CropDimView.swift in Sources */,
+				FD71E060048279DF14846512462CA1F8 /* CropPickerView-dummy.m in Sources */,
+				951A2A1A7309D401D5EEE594930993AF /* CropPickerView.swift in Sources */,
+				1CC72930370BF0E16063890C40D650EE /* CropResult.swift in Sources */,
+				1F60ACC4D8FC7F300B5D73417B007632 /* CropView.swift in Sources */,
+				F4FD8158183BF0A4832C737ED48A626D /* LineButton.swift in Sources */,
+				43A1C58672D95D85F829FE8A564AAF9D /* NSLayoutConstraint+.swift in Sources */,
+				9E4AB48A698D5B7BB722D101F8A8563D /* UIImage+fixOrientation.swift in Sources */,
+				2A48619B14F4D1FC7D08332C12ECBB66 /* UIImageView+.swift in Sources */,
+				1F64E07B6BCE2D7275A5BB4C043B4B13 /* UIView+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A703FF68459FCBD30958E4E82D4112C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E60A2FD44B78038196330BACA7EA2BD /* Pods-VideoConverter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3989421CCA2D5F47D5A73BDB43E4067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA91FBD642148F060922DF0D392D2635 /* Pods-VideoConverter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE59CD469DF4FA34B9F47944DF4D73E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FA7D0E5813EE92C523F3776D01B0B3 /* Int+Time.swift in Sources */,
+				3E4B3183E7C9DEB2F6469AD50E49EFA4 /* VideoTrim-dummy.m in Sources */,
+				D731AE962B407AE2B7247B43CA687F3A /* VideoTrim.swift in Sources */,
+				48539994FC1E5BFA32C807766F0C001E /* VisualEffectImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC95F8DC441C894995B65E274298EE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54FD672B8FAC95799D768C377364D3E /* ConverterCrop.swift in Sources */,
+				BFA71E69E253C53CDA1D9C84631D2B8D /* ConverterDegree.swift in Sources */,
+				23DE0488139BA9FAB353E3EB46A45C61 /* ConverterOption.swift in Sources */,
+				E3CD3ABC3C631F315B724F86EB9D604A /* VideoConverter-dummy.m in Sources */,
+				03C4A0B3937EFD9700F4B6128F42039B /* VideoConverter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42764BEFE1B3FC20BA4D2D852BC822DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VideoConverter;
+			target = 83B303712B258BD9F462D494D9FCCBB2 /* VideoConverter */;
+			targetProxy = C6795E36AE64F0C08E2637C6CA6DE0C9 /* PBXContainerItemProxy */;
+		};
+		6C1D235625ACFE0F09318F9686A57348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VideoConverter_Example";
+			target = 731436FB31C407DFE5B62D5EAC5126F9 /* Pods-VideoConverter_Example */;
+			targetProxy = 3809CB56E8C222090B3742BEF6B131B2 /* PBXContainerItemProxy */;
+		};
+		D96EB0DC9F679A16FA5B818BA9E4E49A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VideoTrim;
+			target = 901D7D609F83C426259CDBAD2B3A602A /* VideoTrim */;
+			targetProxy = D606F8E78D5F8A70D1AF791D4E416992 /* PBXContainerItemProxy */;
+		};
+		DC4A44CD696EA4D2F1008FDC6F9033C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CropPickerView;
+			target = B2E82C663A10701CE6B794CFF6CCFA17 /* CropPickerView */;
+			targetProxy = 0C52F9B5334E81B299BFA6B4342590C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1294729A545B365E6EF60586BB23D0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4A3A6592882BAFE8BA558282776A72 /* CropPickerView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CropPickerView/CropPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CropPickerView/CropPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CropPickerView/CropPickerView.modulemap";
+				PRODUCT_MODULE_NAME = CropPickerView;
+				PRODUCT_NAME = CropPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23B88E67A796C96FE35B57B294C787B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF776FA6186DD0DBBDF177C99D692F00 /* CropPickerView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CropPickerView/CropPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CropPickerView/CropPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CropPickerView/CropPickerView.modulemap";
+				PRODUCT_MODULE_NAME = CropPickerView;
+				PRODUCT_NAME = CropPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		264A9F638BB029C9415E7128794E01AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		31059FC4CDCFE28D42E245A795B024B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4BB8E74F5C0C374B8DDD8364CCADBB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE04F60DBF1121392365B992117251CC /* VideoTrim.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VideoTrim/VideoTrim-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VideoTrim/VideoTrim-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VideoTrim/VideoTrim.modulemap";
+				PRODUCT_MODULE_NAME = VideoTrim;
+				PRODUCT_NAME = VideoTrim;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5745702B8297CEDB9B9A2C3165D2FC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CEEB883CBD30E4824A81C748BD5111B /* Pods-VideoConverter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoConverter_Tests/Pods-VideoConverter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoConverter_Tests/Pods-VideoConverter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		897CAAE1EAF248A4A97793D7942500C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EEB917069E438DA7841630898175B0C /* VideoTrim.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VideoTrim/VideoTrim-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VideoTrim/VideoTrim-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VideoTrim/VideoTrim.modulemap";
+				PRODUCT_MODULE_NAME = VideoTrim;
+				PRODUCT_NAME = VideoTrim;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95017148F6B5539955D05C7F8A1C764F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C68F755F1503366ED1F68853A6B3C2 /* VideoConverter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VideoConverter/VideoConverter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VideoConverter/VideoConverter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VideoConverter/VideoConverter.modulemap";
+				PRODUCT_MODULE_NAME = VideoConverter;
+				PRODUCT_NAME = VideoConverter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A23420CDE0EAA0DD932D4E2A9A240D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61E6370BD0613626A87B5B3447FD851D /* Pods-VideoConverter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoConverter_Example/Pods-VideoConverter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoConverter_Example/Pods-VideoConverter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2AF995CBA9EE104D954AA4A90BBE1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8586C952582E82FA9B7BC1B7062C420D /* VideoConverter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VideoConverter/VideoConverter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VideoConverter/VideoConverter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VideoConverter/VideoConverter.modulemap";
+				PRODUCT_MODULE_NAME = VideoConverter;
+				PRODUCT_NAME = VideoConverter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A99DE2D350D4A36BA1050B373AEDAB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC95A0B6954692EBF743619D5146E844 /* Pods-VideoConverter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoConverter_Example/Pods-VideoConverter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoConverter_Example/Pods-VideoConverter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B97812C4261FD63BEBCC09EC2DDA4307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC41DB725C665F7965132E9009547F02 /* Pods-VideoConverter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoConverter_Tests/Pods-VideoConverter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoConverter_Tests/Pods-VideoConverter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1487EC29DB811703F9B039BFA109535E /* Build configuration list for PBXNativeTarget "VideoConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95017148F6B5539955D05C7F8A1C764F /* Debug */,
+				A2AF995CBA9EE104D954AA4A90BBE1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31059FC4CDCFE28D42E245A795B024B8 /* Debug */,
+				264A9F638BB029C9415E7128794E01AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74829F61C9DED5D96312781D6553CB0C /* Build configuration list for PBXNativeTarget "Pods-VideoConverter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5745702B8297CEDB9B9A2C3165D2FC1A /* Debug */,
+				B97812C4261FD63BEBCC09EC2DDA4307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A046612143A0AA0DD0BD0C445C88D4F6 /* Build configuration list for PBXNativeTarget "CropPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B88E67A796C96FE35B57B294C787B1 /* Debug */,
+				1294729A545B365E6EF60586BB23D0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2A76C6C3266E977E6CCF5140FE1512D /* Build configuration list for PBXNativeTarget "Pods-VideoConverter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99DE2D350D4A36BA1050B373AEDAB68 /* Debug */,
+				A23420CDE0EAA0DD932D4E2A9A240D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE30CEC3C6689B86AF76E73C69014B3 /* Build configuration list for PBXNativeTarget "VideoTrim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB8E74F5C0C374B8DDD8364CCADBB69 /* Debug */,
+				897CAAE1EAF248A4A97793D7942500C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

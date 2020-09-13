@@ -1,0 +1,6 @@
+framework module VideoTrim {
+  umbrella header "VideoTrim-umbrella.h"
+
+  export *
+  module * { export * }
+}

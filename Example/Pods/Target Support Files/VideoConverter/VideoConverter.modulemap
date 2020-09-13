@@ -1,0 +1,6 @@
+framework module VideoConverter {
+  umbrella header "VideoConverter-umbrella.h"
+
+  export *
+  module * { export * }
+}

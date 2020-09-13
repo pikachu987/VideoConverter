@@ -1,0 +1,27 @@
+PODS:
+  - CropPickerView (0.2.3)
+  - VideoConverter (0.1.0)
+  - VideoTrim (0.1.0)
+
+DEPENDENCIES:
+  - CropPickerView (= 0.2.3)
+  - VideoConverter (from `../`)
+  - VideoTrim (= 0.1.0)
+
+SPEC REPOS:
+  trunk:
+    - CropPickerView
+    - VideoTrim
+
+EXTERNAL SOURCES:
+  VideoConverter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CropPickerView: 95decf62e991b0a07d54f9138a9c62edab7e67fa
+  VideoConverter: f2aa15571fe74b3c4a27ce8d3050297e517093fc
+  VideoTrim: fd6362eb20f194fa09b5e36c529e8ae1f7b5fc9f
+
+PODFILE CHECKSUM: 28ee5c7cbfa94510a2183bf4b435ed6398efbe97
+
+COCOAPODS: 1.10.0.beta.2

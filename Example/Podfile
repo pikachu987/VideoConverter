@@ -1,0 +1,13 @@
+use_frameworks!
+
+target 'VideoConverter_Example' do
+  pod 'VideoConverter', :path => '../'
+  pod 'VideoTrim', '0.1.0'
+  pod 'CropPickerView', '0.2.3'
+
+  target 'VideoConverter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
