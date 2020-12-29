@@ -91,13 +91,17 @@ open class VideoConverter {
     open func convert(_ option: ConverterOption? = nil, progress: ((Double?) -> Void)? = nil, completion: @escaping ((URL?, Error?) -> Void)) {
         self.restore()
         guard let videoTrack = self.videoTrack else {
-            completion(nil, NSError(domain: "Can't find video", code: 404, userInfo: nil))
+            DispatchQueue.main.async {
+                completion(nil, NSError(domain: "Can't find video", code: 404, userInfo: nil))
+            }
             return
         }
         self.option = option
         if self.renderSize?.width == 0 || self.renderSize?.height == 0 {
             self.restore()
-            completion(nil, NSError(domain: "The crop size is too small", code: 503, userInfo: nil))
+            DispatchQueue.main.async {
+                completion(nil, NSError(domain: "The crop size is too small", code: 503, userInfo: nil))
+            }
             return
         }
 
@@ -112,7 +116,9 @@ open class VideoConverter {
 
         guard let videoCompositionTrack = composition.addMutableTrack(withMediaType: .video, preferredTrackID: kCMPersistentTrackID_Invalid) else {
             self.restore()
-            completion(nil, NSError(domain: "Can't find video", code: 404, userInfo: nil))
+            DispatchQueue.main.async {
+                completion(nil, NSError(domain: "Can't find video", code: 404, userInfo: nil))
+            }
             return
         }
 
