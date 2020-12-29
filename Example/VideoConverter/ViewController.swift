@@ -255,7 +255,7 @@ class ViewController: UIViewController {
             quality: self.preset,
             isMute: self.isMute), progress: { [weak self] (progress) in
                 self?.progressView.setProgress(Float(progress ?? 0), animated: false)
-        }, completion: { [weak self] (url, error) in
+            }, completion: { [weak self] (url, error) in
             if let error = error {
                 let alertController = UIAlertController(title: nil, message: error.localizedDescription, preferredStyle: .alert)
                 alertController.addAction(UIAlertAction(title: "Confirm", style: .default, handler: nil))

@@ -160,7 +160,24 @@ open class VideoConverter {
 
         self.progressCallback = progress
         // progress timer
-        self.timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(self.timerAction(_:)), userInfo: nil, repeats: true)
+        DispatchQueue.main.async {
+            if #available(iOS 10.0, *) {
+                self.timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { [weak self] (time) in
+                    if let progress = self?.assetExportsSession?.progress {
+                        self?.progressCallback?(Double(progress))
+                        if progress >= 1 {
+                            self?.timer?.invalidate()
+                            self?.timer = nil
+                        }
+                    } else if self?.assetExportsSession == nil {
+                        self?.timer?.invalidate()
+                        self?.timer = nil
+                    }
+                }
+            } else {
+                self.timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(self.timerAction(_:)), userInfo: nil, repeats: true)
+            }
+        }
 
         // quality
         let presetName = option?.quality ?? AVAssetExportPresetHighestQuality
@@ -232,6 +249,13 @@ open class VideoConverter {
     @objc private func timerAction(_ sender: Timer) {
         if let progress = self.assetExportsSession?.progress {
             self.progressCallback?(Double(progress))
+            if progress >= 1 {
+                self.timer?.invalidate()
+                self.timer = nil
+            }
+        } else if self.assetExportsSession == nil {
+            self.timer?.invalidate()
+            self.timer = nil
         }
     }
 }
