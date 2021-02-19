@@ -88,7 +88,7 @@ open class VideoConverter {
     }
 
     // Convert
-    open func convert(_ option: ConverterOption? = nil, progress: ((Double?) -> Void)? = nil, completion: @escaping ((URL?, Error?) -> Void)) {
+    open func convert(_ option: ConverterOption? = nil, temporaryFileName: String? = nil, progress: ((Double?) -> Void)? = nil, completion: @escaping ((URL?, Error?) -> Void)) {
         self.restore()
         guard let videoTrack = self.videoTrack else {
             DispatchQueue.main.async {
@@ -155,7 +155,8 @@ open class VideoConverter {
         }
         videoComposition.frameDuration = CMTimeMake(value: 1, timescale: 30)
         // saveFile
-        let url = URL(fileURLWithPath: "\(NSTemporaryDirectory())TrimmedMovie.mp4")
+        let temporaryFileName = temporaryFileName ?? "TrimmedMovie.mp4"
+        let url = URL(fileURLWithPath: "\(NSTemporaryDirectory())\(temporaryFileName)")
         try? FileManager.default.removeItem(at: url)
 
         self.progressCallback = progress

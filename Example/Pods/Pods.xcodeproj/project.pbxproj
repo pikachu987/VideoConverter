@@ -982,6 +982,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1.3;
 				MODULEMAP_FILE = "Target Support Files/VideoConverter/VideoConverter.modulemap";
 				PRODUCT_MODULE_NAME = VideoConverter;
 				PRODUCT_NAME = VideoConverter;
@@ -1047,6 +1048,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1.3;
 				MODULEMAP_FILE = "Target Support Files/VideoConverter/VideoConverter.modulemap";
 				PRODUCT_MODULE_NAME = VideoConverter;
 				PRODUCT_NAME = VideoConverter;
