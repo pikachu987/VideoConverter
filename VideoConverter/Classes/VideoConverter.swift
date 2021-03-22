@@ -136,7 +136,7 @@ open class VideoConverter {
 
         let compositionInstructions = AVMutableVideoCompositionInstruction()
         compositionInstructions.timeRange = CMTimeRange(start: .zero, duration: self.asset.duration)
-        compositionInstructions.backgroundColor = UIColor(red: 100/255, green: 50/255, blue: 36/255, alpha: 1).cgColor
+        compositionInstructions.backgroundColor = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 1).cgColor
 
         let layerInstructions = AVMutableVideoCompositionLayerInstruction(assetTrack: videoCompositionTrack)
         // opacity
